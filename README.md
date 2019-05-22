@@ -17,13 +17,13 @@ Y ya para la ejecución del comando Hello World en el cluster y los nodos solo h
 Creación: mpicc.opnmpi hello.c -o hello
 
 Ejecución: mpiexec.openmpi -n 3 hello
-'''root@manufercar:~$ mpicc.openmpi hello.c -o hello
+```root@manufercar:~$ mpicc.openmpi hello.c -o hello
 root@manufercar:~$ mpiexec.openmpi -n 3 hello
 Hello World from cluster
 Hello World from nodo 1
 Hello World from nodo 2
 root@manufercar:~$ 
-'''
+```
 ### A una máquina virtual de linux añadirle dos discos duros:
 ## Disco A
 ## Crear las siguientes particiones:
